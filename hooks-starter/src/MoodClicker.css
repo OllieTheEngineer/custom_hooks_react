@@ -1,0 +1,19 @@
+.Clicker-light {
+    background-color: red;
+}
+.Clicker-dark {
+    background-color: darkblue;
+}
+
+.Clicker-dark button {
+    background-color: aqua;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.Clicker-light button {
+    background-color: plum;
+    color: white;
+    font-weight: bolder;
+}
+
