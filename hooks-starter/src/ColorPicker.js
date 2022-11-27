@@ -2,7 +2,7 @@ import React from "react";
 import useLocalStorageState from './hooks/useLocalStorageState';
 
 const ColorPicker = () => {
-    const [color, setColor] = useLocalStorageState('color', 'blue');
+    const [color, setColor] = useLocalStorageState('color', "red");
     const changeColor = (e) => {
         setColor(e.target.value)
     }
